@@ -3,49 +3,48 @@ HTML
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Aliciacreations88 - Créations en bois</title>
+  <title>Aliciacreations88</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fff6dd;
+      background-color: #fdf5e6;
       color: #333;
       text-align: center;
       padding: 20px;
     }
-
     h1 {
-      color: #d4af37;
-      font-size: 32px;
+      color: #b58900;
     }
-
     h2 {
-      font-weight: bold;
+      font-size: 1.3em;
+      margin-bottom: 20px;
     }
-
-    img {
-      max-width: 90%;
-      height: auto;
+    .image-creation {
       margin: 20px auto;
-      display: block;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-
-    .prix {
+    .tarifs {
+      font-weight: bold;
       margin-top: 30px;
-      font-size: 18px;
+      font-size: 1.1em;
     }
-
     .contact {
       background-color: #333;
       color: white;
-      padding: 20px;
-      margin-top: 40px;
+      padding: 15px;
       border-radius: 10px;
+      margin-top: 30px;
+      display: inline-block;
     }
-
-    .contact p {
-      margin: 8px 0;
+    .contact a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -54,21 +53,25 @@ HTML
   <h1>Aliciacreations88</h1>
   <h2>Création en bois 100% fait main</h2>
 
-  <!-- Affichage de l’image -->
-  <img src="Snapchat-437462110.jpg" alt="Création en bois fait main">
+  <!-- Image de la girafe -->
+  <img src="girafe géométrique.png" alt="Création girafe géométrique" class="image-creation">
 
-  <div class="prix">
-    <p>🐭 Petit animal (hérisson) : <strong>20€</strong></p>
-    <p>🐱 Moyen animal (chat) : <strong>40€</strong></p>
-    <p>🐘 Grand animal (éléphant) : <strong>50€</strong></p>
-    <p>✨ Personnalisation : <strong>+10€</strong></p>
+  <!-- Tarifs -->
+  <div class="tarifs">
+    🐭 Petit animal (hérisson) : 20€<br>
+    🐱 Moyen animal (chat) : 40€<br>
+    🐘 Grand animal (éléphant) : 50€<br>
+    ✨ Personnalisation : +10€
   </div>
 
+  <!-- Contact -->
   <div class="contact">
-    <h3>Contactez-moi</h3>
-    <p>📧 alician88700@gmail.com</p>
+    <p>📩 <a href="mailto:alician88700@gmail.com">alician88700@gmail.com</a></p>
     <p>📞 06.85.08.43.96</p>
   </div>
+
+  <!-- Lien vers les modèles -->
+  <p><a href="modeles.html">→ Voir les modèles disponibles</a></p>
 
 </body>
 </html>
