@@ -3,7 +3,7 @@ HTML
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Modèles - AliciaCreations88</title>
+  <title>Modèles disponibles</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,24 +17,18 @@ HTML
       color: #b58900;
     }
 
-    .galerie {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 30px;
-    }
-
     .modele {
       background: white;
       border-radius: 10px;
-      padding: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      width: 280px;
+      display: inline-block;
+      padding: 10px;
+      margin: 20px auto;
+      max-width: 300px;
     }
 
     .modele img {
-      width: 100%;
+      max-width: 100%;
       border-radius: 10px;
     }
 
@@ -43,10 +37,14 @@ HTML
     }
 
     a {
-      display: inline-block;
+      display: block;
       margin-top: 20px;
-      text-decoration: none;
       color: #b58900;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -54,18 +52,13 @@ HTML
 
   <h1>Modèles disponibles</h1>
 
-  <div class="galerie">
-
-    <div class="modele">
-      <img src="Lapin.jpg" alt="Lapin">
-      <h3>Modèle lapin </h3>
-      <p>Format moyen - personnalisable</p>
-    </div>
-
-    <!-- Tu peux copier ce bloc <div class="modele"> pour ajouter d'autres modèles -->
+  <div class="modele">
+    <img src="Tetedelion.jpg" alt="Modèle tête de lion">
+    <h3>Modèle Tête de lion</h3>
+    <p>Format grand - personnalisable</p>
   </div>
 
   <a href="index.html">← Retour à l'accueil</a>
 
 </body>
-        </html>
+</html>
