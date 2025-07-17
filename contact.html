@@ -1,0 +1,74 @@
+HTML 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Aliciacreations88</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf5e6;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #b58900;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #b58900;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    a {
+      display: block;
+      margin-top: 20px;
+      color: #b58900;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contactez-moi</h1>
+  <p>Envoyez un message pour une question, un projet ou une commande !</p>
+
+  <form action="mailto:alician88700@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="Nom" placeholder="Votre nom" required>
+    <input type="email" name="Email" placeholder="Votre e-mail" required>
+    <input type="text" name="Objet" placeholder="Objet">
+    <textarea name="Message" rows="5" placeholder="Votre message..." required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <a href="index.html">← Retour à l'accueil</a>
+
+</body>
+      </html>
