@@ -17,14 +17,25 @@ HTML
       color: #b58900;
     }
 
+    .galerie {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
     .modele {
       background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      display: inline-block;
-      padding: 10px;
-      margin: 20px auto;
-      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      padding: 15px;
+      transition: transform 0.2s ease;
+    }
+
+    .modele:hover {
+      transform: scale(1.03);
     }
 
     .modele img {
@@ -36,9 +47,14 @@ HTML
       margin: 10px 0 5px;
     }
 
+    .modele p {
+      font-size: 14px;
+      color: #666;
+    }
+
     a {
       display: block;
-      margin-top: 20px;
+      margin-top: 30px;
       color: #b58900;
       text-decoration: none;
     }
@@ -49,20 +65,24 @@ HTML
   </style>
 </head>
 <body>
+  <h1>📐 Modèles disponibles</h1>
 
-  <h1>Modèles disponibles</h1>
+  <div class="galerie">
+    <!-- Modèle Lion -->
+    <div class="modele">
+      <img src="Tetedelion.jpg" alt="Modèle tête de lion">
+      <h3>🦁 Tête de lion</h3>
+      <p>Grand format · ✨ personnalisable</p>
+    </div>
 
-  <div class="modele">
-    <img src="Tetedelion.jpg" alt="Modèle tête de lion">
-    <h3>Modèle Tête de lion</h3>
-    <p>Format grand - personnalisable</p>
+    <!-- Modèle Lapin -->
+    <div class="modele">
+      <img src="Lapin.jpg" alt="Modèle lapin">
+      <h3>🐰 Lapin</h3>
+      <p>Moyen format · ✨ personnalisable</p>
+    </div>
   </div>
-<div class="modele">
-  <img src="Lapin.jpg" alt="Modèle Lapin">
-  <h3>Modèle Lapin</h3>
-  <p>Format moyen · personnalisable</p>
-</div>
-  <a href="index.html">← Retour à l'accueil</a>
 
+  <a href="index.html">← Retour à l’accueil</a>
 </body>
 </html>
