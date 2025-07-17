@@ -1,0 +1,67 @@
+HTML 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Personnalisations disponibles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf5e6;
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      color: #b58900;
+    }
+    .option {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: inline-block;
+      margin: 20px;
+      padding: 15px;
+      max-width: 280px;
+    }
+    .option img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    a {
+      display: block;
+      margin-top: 30px;
+      color: #b58900;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Personnalisations possibles ✨</h1>
+
+  <div class="option">
+    <img src="Girafe.png" alt="Couleur personnalisée">
+    <h3>Choix de la couleur</h3>
+    <p>Vous pouvez choisir la couleur de fond ou de l'animal selon vos envies.</p>
+  </div>
+
+  <div class="option">
+    <img src="Lapin.jpg" alt="Ajout de prénom">
+    <h3>Ajout de texte ou prénom</h3>
+    <p>Gravure du prénom ou d’un mot au choix sur l’œuvre.</p>
+  </div>
+
+  <div class="option">
+    <img src="Tetedelion.jpg" alt="Taille personnalisée">
+    <h3>Format sur-mesure</h3>
+    <p>Vous pouvez commander un format plus petit ou plus grand.</p>
+  </div>
+
+  <a href="index.html">← Retour à l’accueil</a>
+
+</body>
+</html>
