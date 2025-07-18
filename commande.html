@@ -6,13 +6,12 @@ HTML
   <title>Passer une commande - Aliciacreations88</title>
   <style>
     body {
-    font-family: Arial, sans-serif;
-    background-color: #ffe5e5; /* Rouge clair */
-    text-align: center;
-    padding: 20px;
-    color: #333;
-  }
-  </style>
+      font-family: Arial, sans-serif;
+      background-color: #ffe5e5; /* Rouge clair */
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
 
     h1 {
       color: #b58900;
@@ -64,45 +63,42 @@ HTML
   </style>
 </head>
 <body>
-
   <h1>Passer une commande</h1>
   <p>Remplissez le formulaire ci-dessous pour commander</p>
 
-  <form action="mailto:alician88700@gmail.com" method="POST" enctype="text/plain">
+  <form>
     <label for="nom">Nom :</label>
-    <input type="text" name="Nom" id="nom" required>
+    <input type="text" id="nom" name="nom" required>
 
     <label for="email">Email :</label>
-    <input type="email" name="Email" id="email" required>
+    <input type="email" id="email" name="email" required>
 
     <label for="modele">Modèle choisi :</label>
-    <select name="Modèle" id="modele">
-      <option value="Tête de lion">Tête de lion</option>
-      <option value="Lapin">Lapin</option>
-      <option value="Girafe">Girafe</option>
-      <option value="Autre">Autre</option>
+    <select id="modele" name="modele">
+      <option value="lion">Tête de lion</option>
+      <option value="lapin">Lapin</option>
+      <option value="girafe">Girafe</option>
     </select>
 
     <label for="taille">Taille :</label>
-    <select name="Taille" id="taille">
-      <option value="Petit">Petit</option>
-      <option value="Moyen">Moyen</option>
-      <option value="Grand">Grand</option>
+    <select id="taille" name="taille">
+      <option value="petit">Petit</option>
+      <option value="moyen">Moyen</option>
+      <option value="grand">Grand</option>
     </select>
 
     <label for="couleur">Couleur souhaitée :</label>
-    <input type="text" name="Couleur" id="couleur" placeholder="ex: fond blanc, animal noir">
+    <input type="text" id="couleur" name="couleur" placeholder="ex: fond blanc, animal noir">
 
-    <label for="texte">Texte à ajouter (prénom, mot...) :</label>
-    <input type="text" name="Texte" id="texte">
+    <label for="texte">Texte à ajouter (prénom, mot…) :</label>
+    <input type="text" id="texte" name="texte">
 
-    <label for="message">Autres précisions :</label>
-    <textarea name="Message" id="message" rows="4"></textarea>
+    <label for="precisions">Autres précisions :</label>
+    <textarea id="precisions" name="precisions" rows="4"></textarea>
 
     <button type="submit">Envoyer la commande</button>
   </form>
 
   <a href="index.html">← Retour à l'accueil</a>
-
 </body>
 </html>
